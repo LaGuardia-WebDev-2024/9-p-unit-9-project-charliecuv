@@ -3,13 +3,20 @@ setup = function() {
 };
 
 //Background Images
-var caveSceneImage = loadImage("https://www.shutterstock.com/image-vector/vector-illustration-background-forest-scenery-600nw-1807427365.jpg");
+var caveSceneImage = loadImage("https://images5.alphacoders.com/109/1097735.jpg");
 
-var forestImage = loadImage("https://t3.ftcdn.net/jpg/02/50/39/72/360_F_250397206_HuBj2V5oEytcqonzpzum4IjEjtAsZq3g.jpg");
+var forestImage = loadImage("https://wallpapercave.com/wp/wp12082213.jpg");
+
+var city1= loadImage("https://images3.alphacoders.com/111/1113342.jpg");
+
+var city = loadImage("https://images.alphacoders.com/940/940297.png");
+
+var die1 = loadImage("https://c4.wallpaperflare.com/wallpaper/997/336/1011/anime-original-girl-post-apocalyptic-white-dress-hd-wallpaper-preview.jpg");
+
 
 //Variable Declarations
 var sceneImage = caveSceneImage;
-var sceneText = "Where do you want to go?  [Press f for forest and c for cave]";
+var sceneText = "want to start?  [Press s]";
 
 draw = function(){
     
@@ -17,15 +24,32 @@ draw = function(){
 
 
    if(keyPressed){
-     if(key == 'f'){
-       sceneImage = forestImage;   
-       sceneText = "No fox here.  [Press s to restart]";
+     if(key == 'd'){
+       sceneImage = city1;   
+       sceneText = " safe [ O for left Y for right]";
      } 
-     if(key == 's'){
-      sceneImage = caveSceneImage;
-      sceneText = "Where do you want to go?  [Press f for forest and c for cave]";
-    } 
+
+      if(key =='s'){
+      sceneImage =forestImage;
+      sceneText = " you must get to the s a f e space which way will you go? \n [ D for left G for right]";
+    }
+   
+
+     if(key == 'g'){
+       sceneImage = city;   
+       sceneText = " safe  [ E for left H for right  ]";
+     } 
+
+     if(key == 'y'){
+       sceneImage = die1;   
+       sceneText = " oh no you meet the woman in w w whh h hhhhi ii itttee e e [ press F]";
+     } 
+
+
    }
+
+
+
   
 };
 
