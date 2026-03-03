@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Delius&family=Poetsen+One&display=swap');
 
 body {
-  background-image: url("https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY.jpg");
+  background-image: url("https://wallpapers.com/images/hd/lighthouse-anime-night-sky-738g1kzifj317b7m.jpg");
   text-align: center;
   margin: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
    font-family: "Poetsen One", serif;
+   cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🌸</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 
 h1{

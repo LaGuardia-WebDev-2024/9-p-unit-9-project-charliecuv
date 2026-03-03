@@ -55,7 +55,7 @@ draw = function(){
 
      if(key == 'u'){
        sceneImage = finished;   
-       sceneText = " Yay!!! you've found it \n now don't ever leave";
+       sceneText = " Yay!!! you've found it \n now don't ever leave  𝄂𝄚𝅦𝄚𝄞𝅄ㅤ";
      }
 
      if(key == 'a'){
@@ -67,7 +67,7 @@ draw = function(){
    
      if(key == 'p'){
        sceneImage = trap1;   
-       sceneText = " crunch crunch oops you were eaten hehe[ press F ]";
+       sceneText = " crunch crunch oops you were eaten hehe ୧ ‧₊˚ 🥩🦴 ⋅[ press F ]";
      
      }
 
@@ -94,7 +94,7 @@ draw = function(){
 
      if(key == 'y'){
        sceneImage = die1;   
-       sceneText = " oh no you meet the woman in white! [ press F]";
+       sceneText = " oh no you meet the woman in white! ⚠︎[ press F]";
      } 
 
 if(key == 'f'){
