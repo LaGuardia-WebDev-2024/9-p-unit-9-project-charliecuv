@@ -136,7 +136,9 @@ if(key == 'f'){
 
      }
 
-
+if(mousePressed && sceneImage == finished){
+  text("✨", random(600), random(400))
+}
 
   
 };
